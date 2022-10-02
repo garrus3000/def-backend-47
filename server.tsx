@@ -8,7 +8,9 @@ import ReactDOMServer from "https://jspm.dev/react-dom@17.0.2/server";
 import { Application, Context, Router } from "https://deno.land/x/oak@v7.3.0/mod.ts";
 
 
-/*  Configuro servidor */
+/*  Configuro servidor ppt 47 / uso de OAK ppt 48 (sería el KOA para DENO)  
+    sinó imposible hacer andar esto, el futuro de node es node
+*/
 
 const app = new Application();
 const router = new Router();
